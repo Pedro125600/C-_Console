@@ -22,8 +22,7 @@ namespace Att3
 
             double resultado = numerador / demoninador;
 
-            Console.WriteLine("O resultado da conta e :" + resultado);
-
+            Console.WriteLine($"O resultado da conta e : {resultado:F2}");
             Console.ReadLine();
 
 
