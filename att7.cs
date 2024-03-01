@@ -10,7 +10,26 @@ namespace att7
     {
         static void Main(string[] args)
         {
-            
+           double total, gorjeta ,despesas;
+
+            Console.WriteLine("Valor despesas");
+            despesas = double.Parse(Console.ReadLine());
+
+
+            Console.WriteLine("Porcentagem gorgeta");
+            gorjeta = double.Parse(Console.ReadLine());
+
+            gorjeta = (despesas / 100) * gorjeta;
+
+            Console.WriteLine("Valor gorgeta:" + gorjeta);
+
+
+            total = gorjeta + despesas;
+            Console.WriteLine("Valor total:" + total);
+
+
+            Console.ReadLine();
+
         }
     }
 }
